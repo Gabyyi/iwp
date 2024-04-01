@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI Chat</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Chats</h2>
+        <div class="chat-list">
+            <a href="#" id="chat1" class="chat-item">FILS</a>
+            <a href="#" id="chat2" class="chat-item">ACS</a>
+            <a href="#" id="chat3" class="chat-item">ETTI</a>
+            <a href="#" id="chat4" class="chat-item">Chat 1</a>
+            <a href="#" id="chat5" class="chat-item">Chat 2</a>
+            <a href="#" id="chat6" class="chat-item">Chat 3</a>
+            <a href="#" id="chat7" class="chat-item">Chat 1</a>
+            <a href="#" id="chat8" class="chat-item">Chat 2</a>
+            <a href="#" id="chat9" class="chat-item">Chat 3</a>
+            <a href="#" id="chat10" class="chat-item">Chat 1</a>
+            <a href="#" id="chat11" class="chat-item">Chat 2</a>
+            <a href="#" id="chat12" class="chat-item">Chat 3</a>
+            <a href="#" id="chat13" class="chat-item">Chat 1</a>
+            <a href="#" id="chat14" class="chat-item">Chat 2</a>
+            <a href="#" id="chat15" class="chat-item">Chat 3</a>
+        </div>
+    </div>
+    <div id="chat-container" class="chat-container">
+        <div id="chat-messages" class="chat-messages">
+            <!-- Chat messages will be dynamically added here -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="Type your message...">
+            <button id="sendButton">Send</button>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-database.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
